@@ -9,4 +9,5 @@ resource "azurerm_storage_account" "storage" {
    # Optional: secure traffic only
   allow_blob_public_access = false
   enable_https_traffic_only = true
+  local_user_enabled       = false
 }
